@@ -1,14 +1,9 @@
-/**
- * 
- */
+
 package Lecture3;
 
 import java.util.Scanner;
 
-/**
- * @author catg
- *
- */
+
 public class TypeAName {
 
 	public static void main(String[] args) {
