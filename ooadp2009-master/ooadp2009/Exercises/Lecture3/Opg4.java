@@ -1,20 +1,23 @@
-
 package Lecture3;
 
 import java.util.Scanner;
 
-
-public class TypeAName {
+public class Opg4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Please write your name: ");
+		System.out.print("Give 2 seperate integers");
 		
-		String name = sc.next();
-		System.out.println("Hello " + name + "!");
+		int a = sc.nextInt();
+		int b = sc.nextInt();
 		
+		if (a > b)
+			System.out.println(a);
+		else 
+			System.out.println(b);
 		
 		sc.close();
 		

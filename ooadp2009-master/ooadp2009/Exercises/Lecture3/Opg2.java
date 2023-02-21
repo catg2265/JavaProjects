@@ -2,11 +2,10 @@ package Lecture3;
 
 import java.util.Scanner;
 
-public class SumOf2Doubles {
+public class Opg2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("The purpose of the program is to take the sum of two double values");
